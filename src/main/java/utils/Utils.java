@@ -29,7 +29,7 @@ public class Utils {
 
     public static List<Rolo> getRolos(String caminho) throws NullPointerException {
         File file = new File(caminho);
-        Scanner scanner = null;
+        Scanner scanner;
         try {
             scanner = new Scanner(file);
         } catch (FileNotFoundException e) {
