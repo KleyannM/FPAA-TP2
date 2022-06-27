@@ -29,10 +29,6 @@ public class Main {
                 continue;
             }
 
-            Long inicio;
-            Long fim;
-            Long tempoTotal;
-
             System.out.println("\n[ Programação Dinâmica ]\n");
             Resultado resultadoPD = ProgDinamica.resolve(listaRolos);
             System.out.println(resultadoPD);
