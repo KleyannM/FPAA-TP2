@@ -22,18 +22,6 @@ public class Resultado {
         this.tabelaPD = tab;
     }
 
-    public int getMenorCusto() {
-        return menorCusto;
-    }
-
-    public List<Rolo> getRolosUsados() {
-        return rolosUsados;
-    }
-
-    public String getTabelaPD() {
-        return tabelaPD;
-    }
-
     @Override
     public String toString(){
         String resultado = "Custo mínimo: " + menorCusto + "\nTempo de execução: " + tempo + "\nRolos usados: " + rolosUsados;

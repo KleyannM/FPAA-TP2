@@ -5,14 +5,12 @@ import objetos.Resultado;
 import objetos.Rolo;
 import utils.Utils;
 
-import java.time.Duration;
-import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         List<List<Rolo>> testes = new ArrayList<>();
         testes.add(Utils.getRolos("./src/entradas/LaminacaoTeste1.txt"));
         testes.add(Utils.getRolos("./src/entradas/LaminacaoTeste2.txt"));
@@ -40,8 +38,6 @@ public class Main {
             System.out.println("\n\n[ Guloso ]\n");
             Resultado resultadoG = Guloso.resolve(listaRolos);
             System.out.println(resultadoG);
-
-
 
             teste++;
         }
